@@ -1,0 +1,249 @@
+/* CSS del Template WordPress Completo */
+
+/* Reset margini e paddin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Sfondo e font del body */
+body {
+  font-family: 'Montserrat', serif;
+  background-image: url(../img/default-pattern.png);
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+/* Classe dell'header, sfondo giallo */
+header {
+  height: 300px;
+  margin: 1%;
+}
+/* Classe del banner header */
+.banner {
+  height: 90%;
+  width: 100%;
+  background-image: url(../img/bosco.jpg);
+  background-size: cover;
+  border: solid 5px white;
+  position: relative;
+  display: inline-block;
+}
+/* Classe titolo */
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px #666;
+  border: solid 10px white;
+  padding: 10px;
+}
+/* Classe sottotitolo */
+.thin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  top: 80%;
+}
+
+.differ {
+  top: 20%;
+}
+/* Classe nav */
+nav {
+  height: 10%;
+  width: 100%;
+  background-color: rgba(52, 48, 48, 0.49);
+}
+
+.navcontainer {
+  text-align: center;
+  height: 100%;
+}
+
+div .navbox {
+  display: inline-block;
+}
+
+.navbox {
+  text-align: center;
+  /* width: 100%;
+  height: 100%; */
+  color: white;
+  font-size: 12px;
+  position: relative;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.navtxt {
+  padding: 8px;
+}
+
+/* Classe del contenitore globale */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Clearfix di riga centrale */
+.riga::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+/* Classe arrotondamento */
+.radius {
+  border-radius: 5px;
+}
+/* Classe della colonna sinistra con float left */
+.leftcol {
+  background-color: white;
+  width: 22%; /* Era meglio VW qui? */
+  float: left;
+  margin-left: 1%;
+}
+
+.titleleft {
+  content: "";
+  display: table;
+  clear:both;
+  margin: 15px 15px;
+}
+
+.rss {
+  float: left;
+}
+
+.titletext {
+  float: left;
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.link {
+  font-size: 10px;
+  list-style: none;
+}
+
+li {
+  margin: 5px;
+}
+
+.link a {
+  text-decoration: none;
+  color: green;
+}
+
+.link a:hover {
+  color: orange;
+}
+
+.navbox a {
+  text-decoration: none;
+  color: white;
+}
+
+.bookmarks {
+  margin-top: 30px;
+}
+
+/* Classe della colonna centrale con float left */
+.centercol {
+  background-color: white;
+  width: 50%;
+  float: left;
+  margin: 0 3%;
+}
+
+.titlecenter {
+  margin: 15px 15px;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #666;
+}
+
+.parcenter {
+  margin: 15px 15px;
+  font-size: 10px;
+}
+
+/* Classe della colonna destra con float right */
+.rightcol {
+  /* background-color: violet; */
+  width: 20%;
+  float: left;
+  margin-right: 1%;
+}
+
+.titleright {
+  font-size: 14px;
+  text-shadow: 1px 1px 1px #666;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.parright {
+  font-size: 10px;
+  padding: 15px;
+}
+
+/* Classe paragrafi della colonna destra */
+.rightcol section {
+  background-color: white;
+  margin-bottom: 3%; /* Potevo fare diversamente? */
+}
+/* Evito che l'ultima section possa sommare il margin-bottom con quello del footer */
+section:last-child {
+  margin-bottom: 0;
+}
+/* Classe footer */
+footer {
+  background-color: white;
+  height: 90px;
+  margin: 1%;
+}
+
+.credit {
+  text-align: center;
+  font-size: 10px;
+  color: #666;
+}
+
+.footcontainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+div .social {
+  width: 33%;
+  display: inline-block;
+}
+
+.fog {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.navbox .fog {
+  display: none;
+}
+
+.navbox:hover .fog {
+  display: block;
+}
