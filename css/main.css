@@ -54,7 +54,7 @@ header {
   font-size: 16px;
   top: 80%;
 }
-
+/* Placement del logo montagna */
 .differ {
   top: 20%;
 }
@@ -64,16 +64,16 @@ nav {
   width: 100%;
   background-color: rgba(52, 48, 48, 0.49);
 }
-
+/* Contenitore generale della navbar */
 .navcontainer {
   text-align: center;
   height: 100%;
 }
-
+/* Elementi della navbar resi inline-block */
 div .navbox {
   display: inline-block;
 }
-
+/* Classe blocchi elementi navbar */
 .navbox {
   text-align: center;
   /* width: 100%;
@@ -84,11 +84,10 @@ div .navbox {
   margin-top: 7px;
   margin-right: 10px;
 }
-
+/* Testo dei link della navbar */
 .navtxt {
   padding: 8px;
 }
-
 /* Classe del contenitore globale */
 .container {
   width: 80%;
@@ -111,18 +110,18 @@ div .navbox {
   float: left;
   margin-left: 1%;
 }
-
+/* Clearfix del titolo della colonna sinistra, era meglio usare 2 span..? */
 .titleleft {
   content: "";
   display: table;
   clear:both;
   margin: 15px 15px;
 }
-
+/* Logo Rss */
 .rss {
   float: left;
 }
-
+/* Titolo Rss */
 .titletext {
   float: left;
   color: #666;
@@ -130,34 +129,33 @@ div .navbox {
   font-size: 14px;
   font-weight: 600;
 }
-
+/* Link della prima colonna */
 .link {
   font-size: 10px;
   list-style: none;
 }
-
+/* Impostazione magine LI della colonna sx */
 li {
   margin: 5px;
 }
-
+/* Elimino sottolineatura dai link e li rendo verdi */
 .link a {
   text-decoration: none;
   color: green;
 }
-
+/* Imposto un active hover dei link con colore arancione */
 .link a:hover {
   color: orange;
 }
-
+/* Colorazione bianca dei link della navbar */
 .navbox a {
   text-decoration: none;
   color: white;
 }
-
+/* Margine superiore del div della colonna sx */
 .bookmarks {
   margin-top: 30px;
 }
-
 /* Classe della colonna centrale con float left */
 .centercol {
   background-color: white;
@@ -165,38 +163,35 @@ li {
   float: left;
   margin: 0 3%;
 }
-
+/* Classe titolo della colonna centrale */
 .titlecenter {
   margin: 15px 15px;
   font-size: 14px;
   text-shadow: 1px 1px 1px #666;
 }
-
+/* Classe paragrafo colonna centrale */
 .parcenter {
   margin: 15px 15px;
   font-size: 10px;
 }
-
 /* Classe della colonna destra con float right */
 .rightcol {
-  /* background-color: violet; */
   width: 20%;
   float: left;
   margin-right: 1%;
 }
-
+/* Classe titolo colonna destra */
 .titleright {
   font-size: 14px;
   text-shadow: 1px 1px 1px #666;
   padding-left: 15px;
   padding-top: 15px;
 }
-
+/* Classe paragrafo colonna destra */
 .parright {
   font-size: 10px;
   padding: 15px;
 }
-
 /* Classe paragrafi della colonna destra */
 .rightcol section {
   background-color: white;
@@ -212,24 +207,24 @@ footer {
   height: 90px;
   margin: 1%;
 }
-
+/* Testo credits del footer */
 .credit {
   text-align: center;
   font-size: 10px;
   color: #666;
 }
-
+/* Container delle social icons */
 .footcontainer {
   width: 100%;
   text-align: center;
   margin-top: 15px;
 }
-
+/* Disposizione ripartita dei 3 loghi social */
 div .social {
   width: 33%;
   display: inline-block;
 }
-
+/* Layover riquadro oscuro link della navbar */
 .fog {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
@@ -239,11 +234,11 @@ div .social {
   left: 0;
   border-radius: 6px;
 }
-
+/* Layover non visibile di default */
 .navbox .fog {
   display: none;
 }
-
+/* Layover visibile passaggio mouse */
 .navbox:hover .fog {
   display: block;
 }
